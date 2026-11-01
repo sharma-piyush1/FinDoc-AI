@@ -1,4 +1,4 @@
-# 🏦 FinDoc AI: Autonomous Loan Underwriting System
+# 🏦 FinDoc AI
 
 ![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)
 ![FastAPI](https://img.shields.io/badge/FastAPI-0.95+-green.svg)
@@ -108,11 +108,3 @@ Dashboard will open at http://localhost:8501
 3. Click "Analyze Risk".
 
 4. View the extracted Salary, EMIs, and the calculated Risk Score.
-
-## 🔮 Future Roadmap
-
-[ ] PostgreSQL Integration: Persistent storage for long-term audit trails.
-
-[ ] PII Redaction: Auto-masking of PAN/Aadhaar numbers before LLM processing.
-
-[ ] Multi-Document Support: Analyzing ITRs and Bank Statements together.
