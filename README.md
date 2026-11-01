@@ -191,3 +191,7 @@ Known limitations grounded in the current code:
 - No durable storage, cache, authentication, rate limiting, PII redaction, or human-review queue is implemented.
 - The API returns only a subset of the internal workflow state.
 - `test_graph.py` depends on a local sample PDF that is not included.
+
+## Possible next steps
+
+These are not implemented features: add automated tests with mocked provider calls, enforce upload validation and safe temporary-file handling, make the API URL and scoring rules configurable, add privacy and access controls, and build durable review/audit storage if the intended use requires it.
